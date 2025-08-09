@@ -1,3 +1,5 @@
+'''This is a Programme to check if the user can input the correct password by making the user input the password 3 times
+    by - Abhay14-python'''
 import tkinter as tk
 # from tkinter import ttk 
 import ttkbootstrap as ttk
@@ -55,5 +57,6 @@ fin_label.pack(pady = 10)
 
 again = ttk.Button(master = window , text = "Wanna Do Again?" , command = re_try)
 again.pack()
+
 
 window.mainloop()
